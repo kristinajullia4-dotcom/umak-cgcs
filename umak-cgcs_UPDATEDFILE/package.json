@@ -1,0 +1,34 @@
+{
+  "name": "umak-cgcs",
+  "version": "2.0.0",
+  "description": "University of Makati Center for Guidance and Counseling Services (UMak CGCS) Enterprise RBAC System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node database.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.4",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^10.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [
+    "umak",
+    "cgcs",
+    "guidance-counseling",
+    "mental-health",
+    "phq9",
+    "gad7",
+    "webrtc",
+    "rbac",
+    "thesis-system"
+  ],
+  "author": "UMak CGCS Development Team",
+  "license": "ISC"
+}
