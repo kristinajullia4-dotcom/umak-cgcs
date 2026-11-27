@@ -1,0 +1,1274 @@
+[
+  {
+    "line": 39,
+    "name": "UMAK_COLLEGES_AND_INSTITUTES"
+  },
+  {
+    "line": 65,
+    "name": "renderCollegeSelectOptions"
+  },
+  {
+    "line": 85,
+    "name": "populateAllCollegeDropdowns"
+  },
+  {
+    "line": 114,
+    "name": "populateAllCollegeDropdowns"
+  },
+  {
+    "line": 256,
+    "name": "checkCookieConsent"
+  },
+  {
+    "line": 269,
+    "name": "acceptCookieConsent"
+  },
+  {
+    "line": 287,
+    "name": "openPrivacyPolicyModal"
+  },
+  {
+    "line": 296,
+    "name": "closePrivacyPolicyModal"
+  },
+  {
+    "line": 305,
+    "name": "openTermsOfServiceModal"
+  },
+  {
+    "line": 314,
+    "name": "closeTermsOfServiceModal"
+  },
+  {
+    "line": 329,
+    "name": "setupFocusTrap"
+  },
+  {
+    "line": 365,
+    "name": "releaseFocusTrap"
+  },
+  {
+    "line": 376,
+    "name": "initKeyboardAccessibility"
+  },
+  {
+    "line": 430,
+    "name": "initTheme"
+  },
+  {
+    "line": 436,
+    "name": "toggleTheme"
+  },
+  {
+    "line": 454,
+    "name": "updateThemeIcons"
+  },
+  {
+    "line": 465,
+    "name": "initClock"
+  },
+  {
+    "line": 468,
+    "name": "update"
+  },
+  {
+    "line": 482,
+    "name": "showToast"
+  },
+  {
+    "line": 504,
+    "name": "authFetch"
+  },
+  {
+    "line": 519,
+    "name": "switchAuthTab"
+  },
+  {
+    "line": 566,
+    "name": "triggerAccountLockout"
+  },
+  {
+    "line": 578,
+    "name": "update"
+  },
+  {
+    "line": 606,
+    "name": "togglePasswordVisibility"
+  },
+  {
+    "line": 637,
+    "name": "handleForgotPasswordClick"
+  },
+  {
+    "line": 681,
+    "name": "toggleOtpDisplay"
+  },
+  {
+    "line": 694,
+    "name": "cancelResetFlow"
+  },
+  {
+    "line": 714,
+    "name": "handleVerifyResetOtp"
+  },
+  {
+    "line": 740,
+    "name": "handleCompleteReset"
+  },
+  {
+    "line": 790,
+    "name": "openForgotPasswordModal"
+  },
+  {
+    "line": 794,
+    "name": "closeForgotPasswordModal"
+  },
+  {
+    "line": 798,
+    "name": "backToForgotStep1"
+  },
+  {
+    "line": 802,
+    "name": "unlockViaForgotPassword"
+  },
+  {
+    "line": 807,
+    "name": "initAuthFormHandlers"
+  },
+  {
+    "line": 915,
+    "name": "updateRule"
+  },
+  {
+    "line": 1328,
+    "name": "setupNameAndEmailValidation"
+  },
+  {
+    "line": 1349,
+    "name": "setupNameAndEmailValidation"
+  },
+  {
+    "line": 1352,
+    "name": "bindRegistrationListeners"
+  },
+  {
+    "line": 1378,
+    "name": "handleSuccessfulLogin"
+  },
+  {
+    "line": 1391,
+    "name": "validateSession"
+  },
+  {
+    "line": 1412,
+    "name": "logout"
+  },
+  {
+    "line": 1422,
+    "name": "showAuthLanding"
+  },
+  {
+    "line": 1428,
+    "name": "showMainApp"
+  },
+  {
+    "line": 1434,
+    "name": "updateHeaderProfile"
+  },
+  {
+    "line": 1478,
+    "name": "renderDynamicNavbar"
+  },
+  {
+    "line": 1569,
+    "name": "enableEdgeHoverScrollForTabs"
+  },
+  {
+    "line": 1639,
+    "name": "setupPersistentTabs"
+  },
+  {
+    "line": 1668,
+    "name": "restoreActiveTab"
+  },
+  {
+    "line": 1726,
+    "name": "wireUniversalRefreshButtons"
+  },
+  {
+    "line": 1728,
+    "name": "executeRefreshWithSpinner"
+  },
+  {
+    "line": 1828,
+    "name": "setupPersistentTabs"
+  },
+  {
+    "line": 1829,
+    "name": "wireUniversalRefreshButtons"
+  },
+  {
+    "line": 1832,
+    "name": "renderCounselorNav"
+  },
+  {
+    "line": 1844,
+    "name": "switchCounselorTab"
+  },
+  {
+    "line": 1848,
+    "name": "switchTab"
+  },
+  {
+    "line": 1964,
+    "name": "loadAllData"
+  },
+  {
+    "line": 1990,
+    "name": "fetchAppointments"
+  },
+  {
+    "line": 2009,
+    "name": "loadCounselorAppointments"
+  },
+  {
+    "line": 2016,
+    "name": "fetchAssessments"
+  },
+  {
+    "line": 2029,
+    "name": "loadNotifications"
+  },
+  {
+    "line": 2072,
+    "name": "loadNotifications"
+  },
+  {
+    "line": 2074,
+    "name": "startNotificationPoller"
+  },
+  {
+    "line": 2087,
+    "name": "toggleNotificationDrawer"
+  },
+  {
+    "line": 2102,
+    "name": "formatPhilippineTime"
+  },
+  {
+    "line": 2131,
+    "name": "formatPhilippineTime"
+  },
+  {
+    "line": 2133,
+    "name": "renderUserNotifications"
+  },
+  {
+    "line": 2167,
+    "name": "renderUserNotifications"
+  },
+  {
+    "line": 2169,
+    "name": "handleNotificationRouting"
+  },
+  {
+    "line": 2256,
+    "name": "handleNotificationRouting"
+  },
+  {
+    "line": 2258,
+    "name": "renderNotifications"
+  },
+  {
+    "line": 2323,
+    "name": "markSingleNotificationRead"
+  },
+  {
+    "line": 2332,
+    "name": "markAllNotificationsRead"
+  },
+  {
+    "line": 2345,
+    "name": "handleNotifClick"
+  },
+  {
+    "line": 2355,
+    "name": "openEditProfileModal"
+  },
+  {
+    "line": 2415,
+    "name": "removeProfilePhoto"
+  },
+  {
+    "line": 2431,
+    "name": "initEditProfileForm"
+  },
+  {
+    "line": 2561,
+    "name": "fetchCounselorAvailability"
+  },
+  {
+    "line": 2602,
+    "name": "sanitizeFocusLabel"
+  },
+  {
+    "line": 2607,
+    "name": "initStudentBookingForm"
+  },
+  {
+    "line": 2665,
+    "name": "getAppointmentTimeRange"
+  },
+  {
+    "line": 2682,
+    "name": "parseTime"
+  },
+  {
+    "line": 2706,
+    "name": "renderStudentMyBookings"
+  },
+  {
+    "line": 2794,
+    "name": "renderStudentAppointments"
+  },
+  {
+    "line": 2803,
+    "name": "initCounselorScheduleForm"
+  },
+  {
+    "line": 2834,
+    "name": "loadCounselorSchedules"
+  },
+  {
+    "line": 2847,
+    "name": "renderCounselorSchedulesTable"
+  },
+  {
+    "line": 2877,
+    "name": "toggleCounselorScheduleStatus"
+  },
+  {
+    "line": 2898,
+    "name": "deleteCounselorSchedule"
+  },
+  {
+    "line": 2916,
+    "name": "switchAdminUserSubTab"
+  },
+  {
+    "line": 2936,
+    "name": "loadAdminData"
+  },
+  {
+    "line": 2962,
+    "name": "renderAdminUsersTables"
+  },
+  {
+    "line": 3040,
+    "name": "renderAdminAuditTable"
+  },
+  {
+    "line": 3086,
+    "name": "toggleUserStatus"
+  },
+  {
+    "line": 3101,
+    "name": "deleteUser"
+  },
+  {
+    "line": 3118,
+    "name": "filterCounselorAppointments"
+  },
+  {
+    "line": 3157,
+    "name": "initCounselorAppointmentFilters"
+  },
+  {
+    "line": 3207,
+    "name": "initCounselorAppointmentFilters"
+  },
+  {
+    "line": 3209,
+    "name": "renderCounselorQueue"
+  },
+  {
+    "line": 3358,
+    "name": "handleApproveAppointment"
+  },
+  {
+    "line": 3377,
+    "name": "toggleCustomRescheduleReason"
+  },
+  {
+    "line": 3390,
+    "name": "toggleCustomRescheduleReason"
+  },
+  {
+    "line": 3393,
+    "name": "getSelectedRescheduleReason"
+  },
+  {
+    "line": 3403,
+    "name": "getSelectedRescheduleReason"
+  },
+  {
+    "line": 3405,
+    "name": "openRescheduleModal"
+  },
+  {
+    "line": 3416,
+    "name": "openDeclineModal"
+  },
+  {
+    "line": 3425,
+    "name": "initTriageWorkflowModals"
+  },
+  {
+    "line": 3502,
+    "name": "checkSOAPFormValidity"
+  },
+  {
+    "line": 3514,
+    "name": "openSoapModal"
+  },
+  {
+    "line": 3616,
+    "name": "openSOAPModal"
+  },
+  {
+    "line": 3617,
+    "name": "openSoapDocumentationDesk"
+  },
+  {
+    "line": 3618,
+    "name": "openClinicalSoapModal"
+  },
+  {
+    "line": 3621,
+    "name": "initSoapNotesForm"
+  },
+  {
+    "line": 3690,
+    "name": "loadDocumentedClinicalSessions"
+  },
+  {
+    "line": 3745,
+    "name": "fetchCompletedCases"
+  },
+  {
+    "line": 3749,
+    "name": "loadDocumentedClinicalSessions"
+  },
+  {
+    "line": 3750,
+    "name": "fetchCompletedCases"
+  },
+  {
+    "line": 3751,
+    "name": "viewSoapDetailsModal"
+  },
+  {
+    "line": 3761,
+    "name": "loadCrisisAlerts"
+  },
+  {
+    "line": 3878,
+    "name": "sendCounselorCheckIn"
+  },
+  {
+    "line": 3928,
+    "name": "fetchReferrals"
+  },
+  {
+    "line": 3936,
+    "name": "updateMetrics"
+  },
+  {
+    "line": 3967,
+    "name": "initMoodTracker"
+  },
+  {
+    "line": 4001,
+    "name": "fetchMoodHistory"
+  },
+  {
+    "line": 4014,
+    "name": "renderWeeklyMoodChart"
+  },
+  {
+    "line": 4072,
+    "name": "checkStudentIntakeStatus"
+  },
+  {
+    "line": 4093,
+    "name": "checkStudentIntakeStatus"
+  },
+  {
+    "line": 4095,
+    "name": "handleScheduleCounselingClick"
+  },
+  {
+    "line": 4105,
+    "name": "intakeAnswers"
+  },
+  {
+    "line": 4140,
+    "name": "initIntakeQuestions"
+  },
+  {
+    "line": 4176,
+    "name": "initIntakeQuestions"
+  },
+  {
+    "line": 4179,
+    "name": "recordIntakeAnswer"
+  },
+  {
+    "line": 4187,
+    "name": "switchIntakeScale"
+  },
+  {
+    "line": 4201,
+    "name": "updateIntakeProgressBadges"
+  },
+  {
+    "line": 4219,
+    "name": "updateIntakeProgressBadges"
+  },
+  {
+    "line": 4221,
+    "name": "openIntakeModal"
+  },
+  {
+    "line": 4236,
+    "name": "closeIntakeModal"
+  },
+  {
+    "line": 4245,
+    "name": "initIntakeFormHandler"
+  },
+  {
+    "line": 4368,
+    "name": "openAssessmentModal"
+  },
+  {
+    "line": 4437,
+    "name": "showAssessmentResult"
+  },
+  {
+    "line": 4484,
+    "name": "renderStudentAssessmentsHistory"
+  },
+  {
+    "line": 4523,
+    "name": "startCameraAndMic"
+  },
+  {
+    "line": 4557,
+    "name": "stopCameraAndMic"
+  },
+  {
+    "line": 4575,
+    "name": "updateMediaControlUI"
+  },
+  {
+    "line": 4593,
+    "name": "loadUpcomingVideoRoomState"
+  },
+  {
+    "line": 4724,
+    "name": "updateUpcomingCountdown"
+  },
+  {
+    "line": 4775,
+    "name": "launchVideoRoom"
+  },
+  {
+    "line": 4834,
+    "name": "updateWaitingTimer"
+  },
+  {
+    "line": 4876,
+    "name": "updateSessionTimer"
+  },
+  {
+    "line": 4914,
+    "name": "handleAutoDisconnectSession"
+  },
+  {
+    "line": 4919,
+    "name": "acknowledgeSessionExpired"
+  },
+  {
+    "line": 4924,
+    "name": "exitVideoRoom"
+  },
+  {
+    "line": 4941,
+    "name": "initVideoRoomControls"
+  },
+  {
+    "line": 4946,
+    "name": "sendChat"
+  },
+  {
+    "line": 4964,
+    "name": "toggleMic"
+  },
+  {
+    "line": 4977,
+    "name": "toggleCam"
+  },
+  {
+    "line": 4992,
+    "name": "toggleScreenShare"
+  },
+  {
+    "line": 4999,
+    "name": "endCall"
+  },
+  {
+    "line": 5026,
+    "name": "initChatbot"
+  },
+  {
+    "line": 5030,
+    "name": "handleSend"
+  },
+  {
+    "line": 5101,
+    "name": "sendQuickPrompt"
+  },
+  {
+    "line": 5106,
+    "name": "appendAIMessage"
+  },
+  {
+    "line": 5148,
+    "name": "requestLiveCounselorEscalation"
+  },
+  {
+    "line": 5198,
+    "name": "startStudentLiveChatPolling"
+  },
+  {
+    "line": 5277,
+    "name": "endStudentLiveChatSession"
+  },
+  {
+    "line": 5297,
+    "name": "loadLiveChatRequests"
+  },
+  {
+    "line": 5313,
+    "name": "renderCounselorLiveChatDesk"
+  },
+  {
+    "line": 5357,
+    "name": "acceptCounselorLiveChat"
+  },
+  {
+    "line": 5377,
+    "name": "openCounselorLiveChatModal"
+  },
+  {
+    "line": 5393,
+    "name": "fetchCounselorLiveMessages"
+  },
+  {
+    "line": 5429,
+    "name": "endCounselorLiveChatSession"
+  },
+  {
+    "line": 5450,
+    "name": "populateAssignCounselorDropdown"
+  },
+  {
+    "line": 5467,
+    "name": "initWorkloadManager"
+  },
+  {
+    "line": 5515,
+    "name": "loadWorkloadData"
+  },
+  {
+    "line": 5531,
+    "name": "loadWorkloadData"
+  },
+  {
+    "line": 5533,
+    "name": "renderWorkloadTable"
+  },
+  {
+    "line": 5552,
+    "name": "renderActiveSchedules"
+  },
+  {
+    "line": 5587,
+    "name": "renderActiveSchedules"
+  },
+  {
+    "line": 5589,
+    "name": "deleteDutyScheduleSlot"
+  },
+  {
+    "line": 5603,
+    "name": "fetchBroadcasts"
+  },
+  {
+    "line": 5620,
+    "name": "initBroadcasts"
+  },
+  {
+    "line": 5643,
+    "name": "renderBroadcastsList"
+  },
+  {
+    "line": 5663,
+    "name": "switchAdminUserSubTab"
+  },
+  {
+    "line": 5683,
+    "name": "loadAdminData"
+  },
+  {
+    "line": 5730,
+    "name": "renderAdminUserDirectory"
+  },
+  {
+    "line": 5818,
+    "name": "renderAdminAuditTable"
+  },
+  {
+    "line": 5864,
+    "name": "toggleUserStatus"
+  },
+  {
+    "line": 5882,
+    "name": "deleteAdminUser"
+  },
+  {
+    "line": 5899,
+    "name": "initDirectorPortal"
+  },
+  {
+    "line": 6085,
+    "name": "renderInstitutionalAnalytics"
+  },
+  {
+    "line": 6310,
+    "name": "initModals"
+  },
+  {
+    "line": 6375,
+    "name": "openModal"
+  },
+  {
+    "line": 6385,
+    "name": "closeModal"
+  },
+  {
+    "line": 6392,
+    "name": "openModal"
+  },
+  {
+    "line": 6393,
+    "name": "closeModal"
+  },
+  {
+    "line": 6396,
+    "name": "escapeHtml"
+  },
+  {
+    "line": 6402,
+    "name": "escapeHtml"
+  },
+  {
+    "line": 6411,
+    "name": "loadCounselorStudents"
+  },
+  {
+    "line": 6415,
+    "name": "loadCounselorStudentDirectory"
+  },
+  {
+    "line": 6457,
+    "name": "renderStudentDirectory"
+  },
+  {
+    "line": 6606,
+    "name": "updateStudentStatus"
+  },
+  {
+    "line": 6628,
+    "name": "removeStudentRecord"
+  },
+  {
+    "line": 6670,
+    "name": "confirmDeleteStudent"
+  },
+  {
+    "line": 6672,
+    "name": "toggleCollegeCollapse"
+  },
+  {
+    "line": 6686,
+    "name": "filterStudentDirectory"
+  },
+  {
+    "line": 6713,
+    "name": "openStudentProfileModal"
+  },
+  {
+    "line": 6741,
+    "name": "openStudentSoapHistoryModal"
+  },
+  {
+    "line": 6835,
+    "name": "openStudentHealthModal"
+  },
+  {
+    "line": 6892,
+    "name": "openRequestAccessModal"
+  },
+  {
+    "line": 6935,
+    "name": "loadDelegatedAccessRequests"
+  },
+  {
+    "line": 7035,
+    "name": "handleReviewDelegatedAccess"
+  },
+  {
+    "line": 7087,
+    "name": "reviewDelegatedAccess"
+  },
+  {
+    "line": 7089,
+    "name": "loadDirectorDelegatedAccessRequests"
+  },
+  {
+    "line": 7168,
+    "name": "loadDirectorDelegatedAccessRequests"
+  },
+  {
+    "line": 7170,
+    "name": "handleDirectorAccessAction"
+  },
+  {
+    "line": 7195,
+    "name": "handleDirectorAccessAction"
+  },
+  {
+    "line": 7198,
+    "name": "showAlert"
+  },
+  {
+    "line": 7210,
+    "name": "loadCounselorQueue"
+  },
+  {
+    "line": 7237,
+    "name": "loadCounselorQueue"
+  },
+  {
+    "line": 7240,
+    "name": "setupUnifiedQueueFilter"
+  },
+  {
+    "line": 7248,
+    "name": "triggerFilteredQueueFetch"
+  },
+  {
+    "line": 7306,
+    "name": "setupUnifiedQueueFilter"
+  },
+  {
+    "line": 7307,
+    "name": "initQueueSearchAndFilters"
+  },
+  {
+    "line": 7310,
+    "name": "dismissFacultyModalCleanly"
+  },
+  {
+    "line": 7328,
+    "name": "dismissFacultyModalCleanly"
+  },
+  {
+    "line": 7331,
+    "name": "attachModalsToBody"
+  },
+  {
+    "line": 7340,
+    "name": "attachModalsToBody"
+  },
+  {
+    "line": 7349,
+    "name": "openFacultyReferralModal"
+  },
+  {
+    "line": 7368,
+    "name": "openFacultyReferralModal"
+  },
+  {
+    "line": 7373,
+    "name": "setupFacultyReferralForm"
+  },
+  {
+    "line": 7424,
+    "name": "setupFacultyReferralForm"
+  },
+  {
+    "line": 7430,
+    "name": "setMeetingExitButtonVisibility"
+  },
+  {
+    "line": 7450,
+    "name": "setMeetingExitButtonVisibility"
+  },
+  {
+    "line": 7453,
+    "name": "setVideoMeetingState"
+  },
+  {
+    "line": 7456,
+    "name": "setVideoMeetingState"
+  },
+  {
+    "line": 7464,
+    "name": "initTabExitButtonGuards"
+  },
+  {
+    "line": 7479,
+    "name": "onVideoCallConnected"
+  },
+  {
+    "line": 7483,
+    "name": "onVideoCallConnected"
+  },
+  {
+    "line": 7486,
+    "name": "handleExitVideoSession"
+  },
+  {
+    "line": 7500,
+    "name": "handleExitVideoSession"
+  },
+  {
+    "line": 7502,
+    "name": "handleVideoMeetingEnded"
+  },
+  {
+    "line": 7556,
+    "name": "handleVideoMeetingEnded"
+  },
+  {
+    "line": 7577,
+    "name": "openHardwareCheckModal"
+  },
+  {
+    "line": 7597,
+    "name": "startHardwareMediaTracks"
+  },
+  {
+    "line": 7686,
+    "name": "updateMicLevel"
+  },
+  {
+    "line": 7723,
+    "name": "retryHardwareDevicesOnly"
+  },
+  {
+    "line": 7745,
+    "name": "stopHardwareMediaTracks"
+  },
+  {
+    "line": 7787,
+    "name": "closeHardwareCheckModal"
+  },
+  {
+    "line": 7804,
+    "name": "startHardwareMediaTracks"
+  },
+  {
+    "line": 7805,
+    "name": "initHardwareTestStreams"
+  },
+  {
+    "line": 7806,
+    "name": "retryHardwareDevicesOnly"
+  },
+  {
+    "line": 7807,
+    "name": "restartHardwareTest"
+  },
+  {
+    "line": 7808,
+    "name": "stopHardwareMediaTracks"
+  },
+  {
+    "line": 7809,
+    "name": "stopHardwareTestStreams"
+  },
+  {
+    "line": 7810,
+    "name": "openHardwareDiagnosticModal"
+  },
+  {
+    "line": 7811,
+    "name": "closeHardwareDiagnosticModal"
+  },
+  {
+    "line": 7851,
+    "name": "toggleOtpMask"
+  },
+  {
+    "line": 7864,
+    "name": "openForgotPasswordModal"
+  },
+  {
+    "line": 7884,
+    "name": "openForgotModal"
+  },
+  {
+    "line": 7886,
+    "name": "closeForgotPasswordModal"
+  },
+  {
+    "line": 7893,
+    "name": "closeForgotModal"
+  },
+  {
+    "line": 7895,
+    "name": "handleSendResetCode"
+  },
+  {
+    "line": 7929,
+    "name": "handleVerifyResetCode"
+  },
+  {
+    "line": 7959,
+    "name": "handleSetNewPassword"
+  },
+  {
+    "line": 8049,
+    "name": "handlePasswordResetSubmit"
+  },
+  {
+    "line": 8094,
+    "name": "executeStudentRegistration"
+  },
+  {
+    "line": 8215,
+    "name": "handleRegisterSubmit"
+  },
+  {
+    "line": 8216,
+    "name": "handleUserSignUp"
+  },
+  {
+    "line": 8217,
+    "name": "handleRegister"
+  },
+  {
+    "line": 8220,
+    "name": "handleCounselorRegister"
+  },
+  {
+    "line": 8272,
+    "name": "setDirectorViewRole"
+  },
+  {
+    "line": 8305,
+    "name": "triggerDirectorSearch"
+  },
+  {
+    "line": 8310,
+    "name": "loadDirectorData"
+  },
+  {
+    "line": 8352,
+    "name": "buildUserStatusActions"
+  },
+  {
+    "line": 8470,
+    "name": "openUniversalProfile"
+  },
+  {
+    "line": 8711,
+    "name": "openRequestProfileAccessModal"
+  },
+  {
+    "line": 8730,
+    "name": "handleProfileAccessRequestSubmit"
+  },
+  {
+    "line": 8791,
+    "name": "closeUniversalProfile"
+  },
+  {
+    "line": 8810,
+    "name": "openClinicalMonitoringSheet"
+  },
+  {
+    "line": 8914,
+    "name": "exportMonitoringSheetToCSV"
+  },
+  {
+    "line": 8935,
+    "name": "openClinicalMonitoringSheet"
+  },
+  {
+    "line": 8936,
+    "name": "exportMonitoringSheetToCSV"
+  },
+  {
+    "line": 8939,
+    "name": "closeUserProfileModal"
+  },
+  {
+    "line": 8940,
+    "name": "openUserProfileModal"
+  },
+  {
+    "line": 8941,
+    "name": "viewUserProfile"
+  },
+  {
+    "line": 8942,
+    "name": "openStudentProfileModal"
+  },
+  {
+    "line": 8943,
+    "name": "showStudentModal"
+  },
+  {
+    "line": 8944,
+    "name": "openDirectorProfileModal"
+  },
+  {
+    "line": 8945,
+    "name": "closeDirectorProfileModal"
+  },
+  {
+    "line": 8946,
+    "name": "openGlobalProfile"
+  },
+  {
+    "line": 8947,
+    "name": "closeGlobalProfileModal"
+  },
+  {
+    "line": 8948,
+    "name": "openCgcsProfile"
+  },
+  {
+    "line": 8949,
+    "name": "closeCgcsProfileModal"
+  },
+  {
+    "line": 8950,
+    "name": "viewStudentProfile"
+  },
+  {
+    "line": 8952,
+    "name": "exportStudentSummaryPDF"
+  },
+  {
+    "line": 8985,
+    "name": "onDirectorTabChange"
+  },
+  {
+    "line": 8993,
+    "name": "switchDirectorRole"
+  },
+  {
+    "line": 8994,
+    "name": "switchDirectorTab"
+  },
+  {
+    "line": 8995,
+    "name": "loadDirectorUsers"
+  },
+  {
+    "line": 8996,
+    "name": "loadAdminUsers"
+  },
+  {
+    "line": 8997,
+    "name": "debounceDirSearch"
+  },
+  {
+    "line": 8998,
+    "name": "loadCounselorDirectory"
+  },
+  {
+    "line": 8999,
+    "name": "debounceCounsSearch"
+  },
+  {
+    "line": 9000,
+    "name": "openDirectorProfileModal"
+  },
+  {
+    "line": 9001,
+    "name": "closeDirectorProfileModal"
+  },
+  {
+    "line": 9002,
+    "name": "openGlobalProfile"
+  },
+  {
+    "line": 9003,
+    "name": "closeGlobalProfileModal"
+  },
+  {
+    "line": 9004,
+    "name": "openCgcsProfile"
+  },
+  {
+    "line": 9005,
+    "name": "closeCgcsProfileModal"
+  },
+  {
+    "line": 9006,
+    "name": "viewStudentProfile"
+  },
+  {
+    "line": 9007,
+    "name": "showStudentModal"
+  },
+  {
+    "line": 9009,
+    "name": "fetchAndRenderUsers"
+  },
+  {
+    "line": 9014,
+    "name": "renderStudentAssessmentsHistory"
+  },
+  {
+    "line": 9015,
+    "name": "showAssessmentResult"
+  },
+  {
+    "line": 9018,
+    "name": "handleAccountStatusChange"
+  },
+  {
+    "line": 9107,
+    "name": "loadFacultyReferralsDesk"
+  },
+  {
+    "line": 9190,
+    "name": "openOutreachModal"
+  },
+  {
+    "line": 9212,
+    "name": "loadFacultyReferralsDesk"
+  },
+  {
+    "line": 9213,
+    "name": "openOutreachModal"
+  }
+]

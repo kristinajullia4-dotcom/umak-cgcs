@@ -1,0 +1,98 @@
+ 535 | POST   | /api/auth/login                                    | public               | app.post('/api/auth/login', handleLogin); app.post('/api/login', handleLogin); // POST /api/auth/f
+ 536 | POST   | /api/login                                         | public               | app.post('/api/login', handleLogin); // POST /api/auth/forgot-password - Explicit logging, 6-digit
+ 539 | POST   | /api/auth/forgot-password                          | public               | app.post('/api/auth/forgot-password', (req, res) => { 
+ 622 | POST   | /api/auth/verify-reset-otp                         | public               | app.post('/api/auth/verify-reset-otp', (req, res) => { 
+ 656 | POST   | /api/auth/reset-password                           | public               | app.post('/api/auth/reset-password', async (req, res) => { 
+ 970 | POST   | /api/auth/register                                 | public               | app.post('/api/auth/register', handleRegister); app.post('/api/register', handleRegister); // POST
+ 971 | POST   | /api/register                                      | public               | app.post('/api/register', handleRegister); // POST /api/counselor/register - Counselor Self-Regist
+1051 | POST   | /api/counselor/register                            | public               | app.post('/api/counselor/register', handleCounselorRegister); // POST /api/auth/verify-otp & POST 
+1119 | POST   | /api/auth/verify-otp                               | auth                 | app.post('/api/auth/verify-otp', handleVerifyOtp); app.post('/api/verify-otp', handleVerifyOtp); /
+1120 | POST   | /api/verify-otp                                    | auth                 | app.post('/api/verify-otp', handleVerifyOtp); // GET /api/me - Verify Active Session & Fetch Lates
+1123 | GET    | /api/me                                            | auth                 | app.get('/api/me', authenticateJWT, async (req, res) => { 
+1288 | PUT    | /api/users/profile                                 | auth                 | app.put('/api/users/profile', authenticateToken, handleUserProfileUpdate); app.put('/api/user/profi
+1289 | PUT    | /api/user/profile                                  | auth                 | app.put('/api/user/profile', authenticateToken, handleUserProfileUpdate); app.patch('/api/users/pro
+1290 | PATCH  | /api/users/profile                                 | auth                 | app.patch('/api/users/profile', authenticateToken, handleUserProfileUpdate); app.patch('/api/user/p
+1291 | PATCH  | /api/user/profile                                  | auth                 | app.patch('/api/user/profile', authenticateToken, handleUserProfileUpdate); // Helper: Parse dateS
+1615 | GET    | /api/student/dashboard                             | public               | app.get('/api/student/dashboard', (req, res) => { 
+1619 | GET    | /api/student/appointments                          | public               | app.get('/api/student/appointments', async (req, res) => { 
+1640 | GET    | /api/student/assessments                           | public               | app.get('/api/student/assessments', async (req, res) => { 
+1657 | GET    | /api/student/mood                                  | public               | app.get('/api/student/mood', async (req, res) => { 
+1670 | GET    | /api/executive-logs                                | auth                 | app.get('/api/executive-logs', authenticateJWT, (req, res, next) => { 
+1688 | GET    | /api/appointments                                  | auth                 | app.get('/api/appointments', authenticateJWT, async (req, res) => { 
+1827 | GET    | /api/counselor/queue                               | auth                 | app.get('/api/counselor/queue', authenticateJWT, requireRole('counselor', 'director', 'superadmin'),
+1938 | POST   | /api/appointments                                  | auth                 | app.post('/api/appointments', authenticateJWT, async (req, res) => { 
+2132 | PATCH  | /api/appointments/:id                              | auth                 | app.patch('/api/appointments/:id', authenticateJWT, async (req, res) => { 
+2291 | GET    | /api/video-room/verify/:appointmentId              | auth                 | app.get('/api/video-room/verify/:appointmentId', authenticateJWT, async (req, res) => { 
+2426 | GET    | /api/video-room/upcoming                           | auth                 | app.get('/api/video-room/upcoming', authenticateJWT, async (req, res) => { 
+2633 | GET    | /api/student/availability                          | public               | app.get('/api/student/availability', handleCounselorAvailability); app.get('/api/student/counselor-
+2634 | GET    | /api/student/counselor-availability                | public               | app.get('/api/student/counselor-availability', handleCounselorAvailability); app.get('/api/counselo
+2635 | GET    | /api/counselor/availability                        | public               | app.get('/api/counselor/availability', handleCounselorAvailability); // GET /api/counselors/list -
+2638 | GET    | /api/counselors/list                               | public               | app.get('/api/counselors/list', async (req, res) => { 
+2652 | GET    | /api/counselor/list                                | public               | app.get('/api/counselor/list', async (req, res) => { 
+2667 | GET    | /api/counselor/schedules                           | auth                 | app.get('/api/counselor/schedules', authenticateJWT, requireRole('counselor', 'director', 'superadmi
+2828 | POST   | /api/counselors/schedule                           | auth                 | app.post('/api/counselors/schedule', authenticateJWT, requireRole('counselor', 'director', 'superadm
+2829 | POST   | /api/counselor/schedules                           | auth                 | app.post('/api/counselor/schedules', authenticateJWT, requireRole('counselor', 'director', 'superadm
+2830 | PUT    | /api/counselors/schedule                           | auth                 | app.put('/api/counselors/schedule', authenticateJWT, requireRole('counselor', 'director', 'superadmi
+2831 | PUT    | /api/counselor/schedules                           | auth                 | app.put('/api/counselor/schedules', authenticateJWT, requireRole('counselor', 'director', 'superadmi
+2834 | PATCH  | /api/counselor/schedules/:id                       | auth                 | app.patch('/api/counselor/schedules/:id', authenticateJWT, requireRole('counselor', 'director', 'sup
+2861 | DELETE | /api/counselor/schedules/:id                       | auth                 | app.delete('/api/counselor/schedules/:id', authenticateJWT, requireRole('counselor', 'director', 'su
+2932 | GET    | /api/counselor/students                            | auth, counselor/director | app.get('/api/counselor/students', authenticateToken, requireCounselorOrAdmin, handleGetCounselorStu
+2933 | GET    | /api/students                                      | auth, counselor/director | app.get('/api/students', authenticateToken, requireCounselorOrAdmin, handleGetCounselorStudents); 
+2936 | PATCH  | /api/counselor/students/:id/status                 | auth, counselor/director | app.patch('/api/counselor/students/:id/status', authenticateToken, requireCounselorOrAdmin, async (r
+3016 | DELETE | /api/students/:id                                  | auth                 | app.delete('/api/students/:id', authenticateJWT, handleDeleteStudent); app.delete('/api/counselor/s
+3017 | DELETE | /api/counselor/students/:id                        | auth                 | app.delete('/api/counselor/students/:id', authenticateJWT, handleDeleteStudent); // Helper: Check 
+3074 | GET    | /api/counselor/students/:id/soap-history           | auth                 | app.get('/api/counselor/students/:id/soap-history', authenticateJWT, requireRole('counselor', 'direc
+3135 | GET    | /api/mood                                          | auth                 | app.get('/api/mood', authenticateJWT, async (req, res) => { 
+3150 | POST   | /api/mood                                          | auth                 | app.post('/api/mood', authenticateJWT, async (req, res) => { 
+3201 | GET    | /api/soap/:appointmentId                           | auth                 | app.get('/api/soap/:appointmentId', authenticateJWT, requireRole('counselor', 'superadmin', 'directo
+3360 | POST   | /api/public/faculty-referral                       | public               | app.post('/api/public/faculty-referral', async (req, res) => { 
+3452 | GET    | /api/counselor/faculty-referrals                   | auth                 | app.get('/api/counselor/faculty-referrals', authenticateToken, async (req, res) => { 
+3467 | GET    | /api/referrals                                     | auth                 | app.get('/api/referrals', authenticateToken, async (req, res) => { 
+3477 | POST   | /api/counselor/faculty-referrals/action            | auth                 | app.post('/api/counselor/faculty-referrals/action', authenticateToken, async (req, res) => { 
+3519 | POST   | /api/delegated-access/request                      | auth                 | app.post('/api/delegated-access/request', authenticateToken, async (req, res) => { 
+3611 | PATCH  | /api/delegated-access/review/:id                   | auth                 | app.patch('/api/delegated-access/review/:id', authenticateToken, async (req, res) => { 
+3704 | GET    | /api/delegated-access/requests                     | auth                 | app.get('/api/delegated-access/requests', authenticateToken, async (req, res) => { 
+3753 | GET    | /api/assessments                                   | auth                 | app.get('/api/assessments', authenticateJWT, async (req, res) => { 
+3776 | POST   | /api/assessments                                   | auth                 | app.post('/api/assessments', authenticateJWT, async (req, res) => { 
+3914 | POST   | /api/student/intake-disclosure                     | auth                 | app.post('/api/student/intake-disclosure', authenticateToken, async (req, res) => { 
+3973 | POST   | /api/student/complete-intake                       | auth                 | app.post('/api/student/complete-intake', authenticateJWT, async (req, res) => { 
+4144 | GET    | /api/counselor/students/:id/health-intake          | auth                 | app.get('/api/counselor/students/:id/health-intake', authenticateJWT, requireRole('counselor', 'dire
+4204 | GET    | /api/crisis-alerts                                 | auth                 | app.get('/api/crisis-alerts', authenticateJWT, requireRole('counselor', 'director', 'superadmin', 'a
+4251 | POST   | /api/counselor/reach-out                           | auth                 | app.post('/api/counselor/reach-out', requireAuth, requireRole(['counselor', 'director', 'superadmin'
+4315 | POST   | /api/chatbot/message                               | optionalAuth         | app.post('/api/chatbot/message', optionalAuth, async (req, res) => { 
+4505 | POST   | /api/counselor/live-chat-request                   | auth                 | app.post('/api/counselor/live-chat-request', authenticateJWT, async (req, res) => { 
+4574 | GET    | /api/counselor/live-chat-requests                  | auth                 | app.get('/api/counselor/live-chat-requests', authenticateJWT, async (req, res) => { 
+4595 | POST   | /api/counselor/live-chat-accept                    | auth                 | app.post('/api/counselor/live-chat-accept', authenticateJWT, requireRole('counselor', 'superadmin', 
+4652 | GET    | /api/counselor/live-chat/:id/messages              | auth                 | app.get('/api/counselor/live-chat/:id/messages', authenticateJWT, async (req, res) => { 
+4673 | POST   | /api/counselor/live-chat/:id/messages              | auth                 | app.post('/api/counselor/live-chat/:id/messages', authenticateJWT, async (req, res) => { 
+4713 | POST   | /api/counselor/live-chat/:id/end                   | auth                 | app.post('/api/counselor/live-chat/:id/end', authenticateJWT, async (req, res) => { 
+4728 | GET    | /api/notifications                                 | auth                 | app.get('/api/notifications', authenticateToken, async (req, res) => { 
+4745 | PATCH  | /api/notifications/:id/read                        | auth                 | app.patch('/api/notifications/:id/read', authenticateToken, async (req, res) => { 
+4760 | PATCH  | /api/notifications/mark-all-read                   | auth                 | app.patch('/api/notifications/mark-all-read', authenticateToken, async (req, res) => { 
+4819 | GET    | /api/counselor/workload                            | auth, superadmin     | app.get('/api/counselor/workload', authenticateJWT, requireRole('counselor', 'director', 'superadmin
+4820 | GET    | /api/counselors/workload                           | auth, superadmin     | app.get('/api/counselors/workload', authenticateJWT, requireRole('counselor', 'director', 'superadmi
+4822 | POST   | /api/admin/schedules                               | auth, superadmin     | app.post('/api/admin/schedules', authenticateJWT, requireRole('superadmin'), async (req, res) => { 
+4845 | GET    | /api/admin/users                                   | auth, superadmin     | app.get('/api/admin/users', authenticateJWT, requireRole('superadmin'), async (req, res) => { 
+4885 | POST   | /api/admin/users                                   | auth, superadmin     | app.post('/api/admin/users', authenticateJWT, requireRole('superadmin'), async (req, res) => { 
+4956 | PATCH  | /api/admin/users/:id                               | auth, superadmin     | app.patch('/api/admin/users/:id', authenticateJWT, requireRole('superadmin'), async (req, res) => { 
+5083 | PATCH  | /api/admin/users/:id/status                        | auth, superadmin     | app.patch('/api/admin/users/:id/status', requireAuth, handleUserStatusUpdate); app.put('/api/admin/
+5084 | PUT    | /api/admin/users/:id/status                        | auth, superadmin     | app.put('/api/admin/users/:id/status', requireAuth, handleUserStatusUpdate); app.patch('/api/users/
+5085 | PATCH  | /api/users/:id/status                              | auth, superadmin     | app.patch('/api/users/:id/status', requireAuth, handleUserStatusUpdate); app.put('/api/users/:id/st
+5086 | PUT    | /api/users/:id/status                              | auth, superadmin     | app.put('/api/users/:id/status', requireAuth, handleUserStatusUpdate); app.delete('/api/admin/user
+5088 | DELETE | /api/admin/users/:id                               | auth, superadmin     | app.delete('/api/admin/users/:id', authenticateJWT, requireRole('superadmin'), async (req, res) => {
+5105 | GET    | /api/admin/audit-logs                              | auth                 | app.get('/api/admin/audit-logs', authenticateJWT, requireRole('superadmin', 'director', 'admin'), as
+5115 | POST   | /api/audit/dpa                                     | auth                 | app.post('/api/audit/dpa', authenticateJWT, async (req, res) => { 
+5127 | GET    | /api/users/students                                | auth, counselor/director | app.get('/api/users/students', authenticateToken, requireCounselorOrAdmin, (req, res) => { 
+5144 | GET    | /api/users/counselors                              | auth, counselor/director | app.get('/api/users/counselors', authenticateToken, requireCounselorOrAdmin, (req, res) => { 
+5164 | GET    | /api/users                                         | public               | app.get('/api/users', (req, res) => { 
+5338 | GET    | /api/users/:id                                     | optionalAuth         | app.get('/api/users/:id', optionalAuth, async (req, res) => { 
+5355 | GET    | /api/users/:id/full-profile                        | optionalAuth         | app.get('/api/users/:id/full-profile', optionalAuth, async (req, res) => { 
+5377 | GET    | /api/students/:id                                  | optionalAuth         | app.get('/api/students/:id', optionalAuth, async (req, res) => { 
+5394 | GET    | /api/students/:id/clinical-monitoring-sheet        | auth                 | app.get('/api/students/:id/clinical-monitoring-sheet', authenticateToken, async (req, res) => { 
+5520 | GET    | /api/analytics/director                            | auth, director       | app.get('/api/analytics/director', authenticateToken, requireDirector, (req, res) => { 
+5615 | GET    | /api/admin/analytics                               | auth                 | app.get('/api/admin/analytics', authenticateJWT, requireRole('counselor', 'director', 'superadmin'),
+5692 | GET    | /api/referrals                                     | auth                 | app.get('/api/referrals', authenticateJWT, requireRole('counselor', 'superadmin'), async (req, res) 
+5702 | GET    | /api/broadcasts                                    | public               | app.get('/api/broadcasts', async (req, res) => { 
+5718 | POST   | /api/broadcasts                                    | auth, superadmin     | app.post('/api/broadcasts', authenticateJWT, requireRole('superadmin'), async (req, res) => { 
+5740 | GET    | /api/health                                        | public               | app.get('/api/health', (req, res) => { 
+5752 | GET    | *                                                  | public               | app.get('*', (req, res) => { 
