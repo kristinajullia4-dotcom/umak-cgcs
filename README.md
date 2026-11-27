@@ -44,12 +44,12 @@ An enterprise Guidance and Counseling Management System developed for the Univer
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
 - [Git](https://git-scm.com/)
 
-### 2. Installation
+### 2. Installation & Quick Start
 
 Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/kristinajullia4-dotcom/umak-cgcs.git
+cd umak-cgcs/umak-cgcs_UPDATEDFILE
 ```
 
 Install dependencies:
@@ -58,7 +58,7 @@ npm install
 ```
 
 ### 3. Environment Setup
-Create a `.env` file in the root directory (you can copy `.env.example`):
+Create a `.env` file inside `umak-cgcs_UPDATEDFILE` (you can copy `.env.example`):
 ```bash
 cp .env.example .env
 ```
@@ -66,7 +66,7 @@ cp .env.example .env
 Configure your environment variables inside `.env`:
 ```env
 PORT=5050
-JWT_SECRET=your_jwt_secret_key_here
+JWT_SECRET=umak_cgcs_enterprise_secret_2026_supersecure_key
 GEMINI_API_KEY=your_gemini_api_key_here
 SMTP_USER=your_email@umak.edu.ph
 SMTP_PASS=your_gmail_app_password
